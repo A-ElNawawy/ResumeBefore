@@ -1,0 +1,263 @@
+/*590 lines*/
+/* 262 lines*/
+/* start main Rouls*/
+.container{width:1170px;margin:auto;}
+h1, h2, h3, h4{text-transform: uppercase;font-weight:bold;}
+h2, h3,h4{color:#555;}
+.clearfix{clear:both;}
+p{color:#788083;}
+hr{ margin:20px 0 ;background-color:#888;height:3px; border:0}
+/* End main Rouls*/
+
+/* start Header */
+.header .slider
+   {
+      background-color:#EEE;/*ليه بنكتب كلمة color مع انها من غيرها شغالة بردو*/
+      background-image:url('../1st Project Images/9.jpg');
+      -webkit-background-size: cover; /*css3*/
+      -moz-background-size: cover; /*css3*/
+      -o-background-size: cover; /*css3*/
+      background-size: cover; /*css3*/
+      height:600px;
+   }
+.header .slider .intro{padding-top:200px;text-align: center;color:#fff;}
+.header .slider .intro h1
+   {
+      margin:0px auto;
+      font-size:50px;
+      width:700px;
+      border-top:4px solid #FFF;
+      border-bottom:4px solid #FFF;
+      padding:5px 0;
+   }
+.header .slider .intro button
+   {
+      background-color: transparent;
+      margin:30px 0;
+      font-size:19px;
+      border:2px solid #FFF;
+      font-weight:bold;
+      padding:18px 43px;
+      text-transform: uppercase;
+      color:#fff;
+   }
+.header .navbar
+   {
+      background:#252f31;
+      color:#FFF;
+      overflow: hidden; /* مش فاهم ايه علاقة السطر ده باللون بتاع النافبار */
+      text-transform: capitalize;
+   }
+.header .navbar h2 span{ color: #3bc977;}
+.header .navbar ul{list-style: none;padding: 0px;overflow: hidden;float: right;}
+.header .navbar ul li{padding: 10px;}
+.header .navbar ul li a{color:#fff;text-decoration: none;}
+.header .navbar ul li a:hover{color:#30b576;font-weight: bold;text-decoration: underline;}
+.header .navbar ul li a:active{text-decoration: none;}
+/* End Header */
+
+/* Start Features*/
+.features
+   {
+      overflow: hidden; /* ليييييييييييييييييييييييييييييه*/
+      padding-top:30px;padding-bottom: 30px;
+   }
+.features .feat{width:33.3333%;height: 181px;margin: 30px 0 60px 0;}
+.features .feat h2{line-height: .75;}
+.features .feat p
+   {
+      line-height:1.7; /* مش عايز الكلام يتزل ورا الصورة اعمل ايه*/
+      padding: 10px 35px 10px 0;
+      white-space:10px;  /* مش راضي ياثر في الجملة ليه*/
+      /*color:#CECECE;*/
+      /*text-align: justify;*/      /* بيخلى الكلام مترصص شويه*/
+   }
+/* End Features*/
+
+/* Start aboutme*/
+.aboutme{background-color: #F2F2F2;overflow: hidden;}
+.aboutme .img{width: 40%;}
+.aboutme .img img{width: 100%;}   
+.aboutme .info{margin-bottom:40px;width: 60%;}
+.aboutme .info h2{margin: 70px 0 30px 50px;}
+.aboutme .info > p{margin: 40px 0 30px 50px;}
+.aboutme .info > p:last-of-type{margin: 30px 0 50px 50px;}
+.aboutme .info .hobbies{overflow:hidden;margin-left: 50px;}
+.aboutme .info .hobbies .box{width: 50%;min-height: 100px;overflow:hidden;}
+.aboutme .info .hobbies .box .icon{width:15%;}
+img[alt="web"]{margin: 4px 0 0 0;max-width: 100%;}
+img[alt="pencil"]{margin: 13px 0 0 0;max-width: 88%;}
+img[alt="group"]{margin: 3px 0 0 0;max-width: 100%;}
+img[alt="attach1"]{margin: 13px 0 0 0;max-width: 79%;}
+.aboutme .info .hobbies .box .icon img{/*max-width: 100%;*/}
+.aboutme .info .hobbies .box .txt{width:85%;}
+.aboutme .info .hobbies .box .text > h3,
+.aboutme .info .hobbies .box .text >p{margin: 9px 0 0 19px ;}
+/* End aboutme*/
+
+/*start myskills*/
+/* ما تنساش تجرب النسب المئوية اللى قال عليها فى اخر الحصة اللى فاتت*/
+.myskills{margin-top: 45px;margin-bottom:50px;overflow: hidden;padding-top: 30px;padding-bottom:30px;}
+.myskills .myskills-left{width:50%;margin-right: 5%;}
+.myskills .myskills-left p{margin-bottom:40px;margin-top:40px;}
+.myskills .myskills-left button{padding:12px 30px;}
+.myskills .myskills-right{width:45%;}
+.myskills .myskills-right h3{margin-bottom: 10px;margin-top:28px;}
+.myskills .myskills-right .stat{background-color:#F2F2F2;height:25px;}
+.myskills .myskills-right .stat span
+   {
+      background-color:#2dcc70;
+      display:block;
+      height:25px;
+      color:white;
+      line-height: 25px;
+      text-align: right;
+   }
+/*End myskills*/
+
+/* start resume*/
+.resume{padding-top:50px;padding-bottom:60px;background-color:#F2F2F2;text-align:center;}
+.resume p{padding-top:10px;padding-bottom:20px;}
+.resume button{padding:12px;margin-bottom: 20px;}
+/* End resume*/
+
+/* Start education*/
+.education{overflow: hidden;padding-top: 50px;padding-bottom:50px;}
+.education p{line-height: 1.7;}
+.education .edu-left{width:50%;}
+.education .edu-left p{margin-top: 30px;}
+.education .edu-right{margin-left:5%;width:45%;}
+.education .edu-right h3{margin-top:73px;}
+.education .edu-right p:first-of-type{margin-bottom:5px;}
+.education .edu-right span
+   {
+      display:inline-block;
+      margin-bottom: 15px;
+      padding:5px 10px;
+      background: #2DCC70;
+      color: #fff;
+      font-weight:bold;
+      text-transform: uppercase;
+   }
+.education .edu-right p:last-of-type{margin-top:25px;}
+/*End education*/
+
+/* Start work*/
+.work{overflow: hidden;padding-top: 50px;padding-bottom:50px;}
+.work p{line-height: 1.7;}
+.work .work-left{width:50%;}
+.work .work-left p{margin-top: 30px;}
+.work .work-right{margin-left:5%;width:45%;}
+.work .work-right h3{margin-top:73px;}
+.work .work-right p:first-of-type{margin-bottom:5px;}
+.work .work-right span
+   {
+      display:inline-block;
+      margin-bottom: 15px;
+      padding:5px 10px;
+      background: #2DCC70;
+      color: #fff;
+      font-weight:bold;
+      text-transform: uppercase;
+   }
+.work .work-right p:last-of-type{margin-top:25px;}
+/*End work*/
+
+/*start testmonials*/  
+.testmonials{padding-top:50px;padding-bottom:30px;background-color:#F2F2F2;text-align:center;}
+.testmonials .container{margin-top:30px;}
+.testmonials q{font-style: italic;font-size: 18px;color:#788083;line-height: 1.7;font-weight: bold;}
+.testmonials h4{margin-top:30px;}
+.testmonials ul{list-style: none;padding-left: 0;text-align: center;}
+.testmonials ul li
+   {
+      margin-top:20px;
+      margin-bottom:40px;
+      width:15px;
+      height:15px;
+      display: inline-block;
+      border:3px solid #2DCC70;
+   }
+.testmonials ul li.activ{background-color:#2DCC70;}
+.testmonials ul li:hover{background-color:#2DCC70;cursor: pointer;}
+/*End testmonials*/
+
+/*start portfolio*/
+.portfolio{padding-top:30px;padding-bottom:60px;text-align:center;overflow:hidden;}
+.portfolio .pictures
+   {
+      padding-top:60px;
+      padding-bottom:20px;
+      overflow:hidden; /* مش عارف افهم البتاع ده بيعمل ايه بالظبط وامتي اعرف اني محتاج له*/
+   }
+.portfolio .pictures > div{width:33.3333%;margin-bottom: 30px;}
+.portfolio .container .pictures > div > img{width:91%;}
+/*End portfolio*/
+
+/*start contact-me*/
+.contact-me{padding:30px 0;background-color: #262B2E;overflow: hidden;}
+.contact-left{padding-left:1.5%;width: 50%;}
+.contact-left h2{color:#ffffff;}
+.contact-left p{color:#788083;}
+.contact-left >p:first-of-type{line-height:1.7;}
+.contact-left p span{color:#fff;}
+.contact-left div{margin-top:20px;}
+.contact-left div p{text-transform: capitalize;line-height:.75;}
+.contact-right{margin-left: 5%;width: 41%;}
+.contact-right div h4{text-transform: capitalize;color:#fff;}
+.contact-right div span{color:#788083;}
+.contact-right div input[type=text]
+   {
+      border:hidden;
+      background-color:#788083;
+      color:#fff;
+      width:100%;
+      height:40px;
+      padding:10px;
+   }
+.contact-right textarea
+   {
+      border:hidden;
+      background-color:#788083;
+      color:#fff;
+      width:100%;
+      height:250px;
+      padding:10px;
+   }
+.contact-right input[type="submit"]
+   {
+      border: hidden;
+      margin-top:35px;
+      margin-bottom:60px;
+      padding:10px 15px;
+      background: #191E21;
+      color: #fff;
+      font-weight:bold;
+      text-transform: uppercase;
+   }
+/*End contact-me*/
+
+/*start footer*/
+.footer
+   {
+      color:#788083;
+      background-color:#191E21;
+      overflow:hidden;              /*مش فاهم تاثير وجوده ازاى بيعمل اللون مظبوط ايه علاقته باللون اصلا*/
+      text-align:center;
+      padding:20px 0;
+   }
+.footer ul{list-style: none;padding-left: 0;}
+.footer ul li{display: inline-block;padding:10px;}
+/*end footer*/
+
+/* start frame work*/
+.my-button
+   {
+      border:3px solid #2DCC70;
+      background: transparent;
+      color: #2DCC70;
+      font-weight:bold;
+      text-transform: uppercase;
+   }
+.fl-left{float:left;}
+/* end frame work*/
